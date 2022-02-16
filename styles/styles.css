@@ -33,6 +33,12 @@
 	color: hsl(0, 0%, 35%);
 	cursor: pointer;
 }
+.circulo:hover {
+	color: #dfe7fd;
+}
+.equis:hover {
+	color: #fad2e1;
+}
 .contenedor-gato {
 	position: relative;
 }

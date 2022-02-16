@@ -1,0 +1,108 @@
+.body {
+	background-color: #cddafd;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	box-sizing: content-box;
+	font-family: "Courier New", Courier, monospace;
+
+	margin: 0px;
+}
+
+.cuadro {
+	display: flex;
+	font-size: x-large;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(53, 53, 53);
+	color: rgb(53, 53, 53);
+	box-sizing: content-box;
+}
+.gato {
+	display: grid;
+	width: 300px;
+	height: 300px;
+	border: none;
+	gap: 3px;
+	background-color: black;
+}
+.cuadro:hover {
+	background-color: hsl(0, 0%, 35%);
+	color: hsl(0, 0%, 35%);
+	cursor: pointer;
+}
+.contenedor-gato {
+	position: relative;
+}
+.line {
+	position: absolute;
+	display: block;
+	height: 10px;
+	background-color: hsla(356, 87%, 94%, 0.61);
+	width: 100%;
+}
+.circulo {
+	color: #dfe7fd;
+}
+.equis {
+	color: #fad2e1;
+}
+.jugadores {
+	border: 1px solid black;
+}
+.buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.game-btn {
+	color: black;
+	background-color: hsl(224, 92%, 70%);
+	border-radius: 5px;
+	margin: 10px;
+	border: 1px solid black;
+}
+.game-btn:hover {
+	cursor: pointer;
+	border: 1px solid black;
+	background-color: hsl(224, 92%, 80%);
+}
+.header {
+	align-self: center;
+}
+.header > h1 {
+	font-family: monospace;
+	font-size: 2.5rem;
+}
+.body {
+	flex: 1;
+}
+.footer {
+	flex: 0 0 0;
+	background-color: #fad2e1;
+	margin: 0px;
+	display: flex;
+
+	justify-content: center;
+	align-content: center;
+}
+.links {
+	margin: 1rem;
+	padding: 0px;
+}
+.links > li {
+	list-style: none;
+	text-align: center;
+}
+a {
+	color: black;
+}
+.main {
+	flex-grow: 1;
+	align-self: center;
+
+	align-items: center;
+}
